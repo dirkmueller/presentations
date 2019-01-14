@@ -160,7 +160,6 @@ For the context, here is a list of projects part of our product
 @title[Context: What we are using behind the scenes]
 
 @ul[](false)
-- openstack-ansible
 - infra
 - i18n/docs
 - requirements
@@ -176,5 +175,12 @@ Note:
 Still for the context, other projects we are using behind the scenes.
 
 ---
-@title[What's in it for SUSE?]
+@title[What's the SUSE state in the community]
 
+#### State of OpenSUSE in the OpenStack community
+
+@ul[](false)
+- Currently, openSUSE is not listed in [popular distros](https://governance.openstack.org/tc/reference/project-testing-interface.html#pti-linux-distros).
+- openSUSE is used not only crowbar and Ardana, it's used in other places in the community.
+- Please help projects (give support in the OpenSUSE image builds in infra/dib, in rpm-packaging).
+@ulend
